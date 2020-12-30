@@ -124,7 +124,7 @@ $\rightarrow$ Dữ liệu được thu thập thành các file: `playList.txt`, 
 
 
 ### Tự đánh giá
-*Ngày 17/12/2020*
+
 1. Ứng dụng quy trình KHDL để trả lời cho câu hỏi dự đoán. (Hoàn thành)
 2. Dùng Máy học để mô hình hóa dữ liệu. (Hoàn thành)
 3. Tự thu thập dữ liệu để trả lời câu hỏi:
@@ -133,6 +133,7 @@ $\rightarrow$ Dữ liệu được thu thập thành các file: `playList.txt`, 
 4. Đánh giá mức độ hoàn thành của các thành viên:
     - Nguyễn Phúc Khôi Nguyên: 100%
     - Nguyễn Thành Nhân: 100%
+
 ### Phân công
 |Công việc|Thành Viên|Mức độ hoàn thành|
 |---|---|---|
@@ -156,3 +157,9 @@ pip install spotipy
     - Vào thẻ Dashboard và chọn `Create an App`
     - Chọn Edit Setting và thay đổi Redirect URIs theo định dạng http://localhost:7777/callback
     - Cung cấp username, Client ID và Client Secret và Redirect URIs ở giao diện ứng dụng của Spotify cho Spotipy
+    
+- Cách chạy lại các file Notebook: Chạy lại các file notebook theo thứ tự sau:
+    1. Lấy thông tin token như hướng dẫn trên
+    2. Sử thông tin token và chạy file `spotify.ipynb` để lấy các id và lưu xuống các file txt
+    2. Chạy file `spotify_api.ipynb` để lấy các thông tin và lưu xuống csv
+    3. Chạy file `analysis.ipynb` và `modeling.ipynb` để phân tích và mô hình hóa dữ liệu
