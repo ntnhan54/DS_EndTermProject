@@ -11,11 +11,11 @@ import spotipy.util as util
 # username = "Chrisnguyen"
 # client_id= "ac6f1d431d774310a0761aef45b2160a"
 # client_secret = "b967f892029e4a21a5f187a5d5b6c784"
+# redirect_uri  = "http://localhost:7777/callback"
 
 username = 'ntnhan54'
 client_id = '30852d0a0cbe4c978fd66b78c48a82a5'
 client_secret = 'a1d544ff27cd41ceb3912352abab2109'
-
 redirect_uri  = "http://localhost:7777/callback"
 
 scope = 'playlist-read-collaborative'

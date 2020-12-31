@@ -33,7 +33,7 @@
 > * Thu thập các id của nghệ sĩ (artists) của các bài hát đã thu thập và các thuộc tính của bài hát đó thông qua id đã thu thập trước đó và lưu vào `tracks.csv` và `feature.csv`
 > * Thu thập thông tin của nghệ sĩ thông qua id và lưu vào `artists.csv`
 
-$\rightarrow$ Dữ liệu được thu thập thành các file: `playList.txt`, `tracks.txt`, `tracks.csv`, `artists.csv`, `feature.csv`
+$\rightarrow$ Dữ liệu được thu thập thành các file: `playList.txt`, `tracks.txt`, `artists.txt`, `./data/tracks.csv`, `./data/artists.csv`, `./data/feature.csv`
 ### Khám phá và tiền xử lí dữ liệu (EDA)
 
 #### Khám phá dữ liệu
@@ -156,10 +156,10 @@ pip install spotipy
     - Đăng nhập vào link https://developer.spotify.com/
     - Vào thẻ Dashboard và chọn `Create an App`
     - Chọn Edit Setting và thay đổi Redirect URIs theo định dạng http://localhost:7777/callback
-    - Cung cấp username, Client ID và Client Secret và Redirect URIs ở giao diện ứng dụng của Spotify cho Spotipy
+    - Cung cấp username, Client ID và Client Secret và Redirect URIs ở cho Spotipy (đã ghi chú trong file spotify.ipynb, spotify_crawl.ipynb
     
 - Cách chạy lại các file Notebook: Chạy lại các file notebook theo thứ tự sau:
     1. Lấy thông tin token như hướng dẫn trên
     2. Sử thông tin token và chạy file `spotify.ipynb` để lấy các id và lưu xuống các file txt
-    2. Chạy file `spotify_api.ipynb` để lấy các thông tin và lưu xuống csv
+    2. Chạy file `spotify_crawl.ipynb` để lấy các thông tin và lưu xuống csv
     3. Chạy file `analysis.ipynb` và `modeling.ipynb` để phân tích và mô hình hóa dữ liệu
