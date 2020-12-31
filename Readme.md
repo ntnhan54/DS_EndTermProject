@@ -163,3 +163,50 @@ pip install spotipy
     2. Sử thông tin token và chạy file `spotify.ipynb` để lấy các id và lưu xuống các file txt
     2. Chạy file `spotify_crawl.ipynb` để lấy các thông tin và lưu xuống csv
     3. Chạy file `analysis.ipynb` và `modeling.ipynb` để phân tích và mô hình hóa dữ liệu
+    
+- Cách sử dụng model để dự đoán dự trên các giá trị
+    - cài đặt thư viện joblib
+    - Dùng hàm joblib.dump để lưu lại model sau khi train
+    - Dùng hàm joblib.load để load model đã được lưu
+    - Ví dụ dự đoán popularity của một bài hát
+        ```python
+               import joblib
+               model = joblib.load(f'{MODEL_DIR}')
+               # Dự đoán popularity của một bài hát
+               ## Giả sử bài hát có data như sau:
+               '''
+                explicit                  False
+                danceability              0.388
+                energy                  0.00843
+                key                           9
+                loudness                -31.898
+                mode                          0
+                speechiness               0.054
+                acousticness              0.994
+                instrumentalness          0.919
+                liveness                 0.0861
+                valence                   0.179
+                tempo                   114.314
+                duration_ms              453267
+                time_signature                4
+                followers           3.57022e+06
+               '''
+                # Input của model là mảng 2 chiều, có shape = (1,15)
+                popularity = model.predict([[False,
+                                0.38799999999999996,
+                                0.00843,
+                                9,
+                                -31.898000000000003,
+                                0,
+                                0.054000000000000006,
+                                0.9940000000000001,
+                                0.919,
+                                0.0861,
+                                0.179,
+                                114.314,
+                                453267,
+                                4,
+                                3.57022e+06]])[0]     
+        ```
+        
+    - Link model đã train sẵn: [model](https://drive.google.com/file/d/1NFEbDukDco6UMAZ796a1PSHX91nUphUJ/view?fbclid=IwAR0Zhe_0kOCWP0lSCFSgoC4xJLx881s4KerC-Mg31iMjxzYqYLE9QraN_oE)
