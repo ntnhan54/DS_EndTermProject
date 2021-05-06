@@ -20,9 +20,9 @@
 7. Hướng dẫn chạy
 
 ### Đặt vấn đề
-> Gần đây diễn ra nhiều cuộc thi về âm nhạc, và câu hỏi đặt ra là làm sao để giám khảo có thể biết được chất lượng của bài hát đó thay vì cách nghe và cảm nhận (một cách khá cảm tính) như bình thường.
+Gần đây diễn ra nhiều cuộc thi về âm nhạc, và câu hỏi đặt ra là làm sao để giám khảo có thể biết được chất lượng của bài hát đó thay vì cách nghe và cảm nhận (một cách khá cảm tính) như bình thường.
 
-> Giả sử bạn là một nghệ sĩ và bạn cần một công cụ để đánh giá bài hát của mình đã tốt chưa, có khả quan và có được khán giả hứng thú. Nếu bài hát chưa hay thì chưa hay ở điểm nào và bạn có thể điều chỉnh được không?
+Giả sử bạn là một nghệ sĩ và bạn cần một công cụ để đánh giá bài hát của mình đã tốt chưa, có khả quan và có được khán giả hứng thú. Nếu bài hát chưa hay thì chưa hay ở điểm nào và bạn có thể điều chỉnh được không?
 
 **Các công cụ có thể trợ giúp việc đưa ra quyết định cho các giám khảo hoặc ca sĩ. Giúp họ điều chỉnh các thuộc tính của bài hát để có hiệu quả tốt. Ví dụ như ca sĩ nên lựa chọn thời lượng của bài hát là bao nhiêu để có thể thu hút nhiều người yêu thích  hoặc nên ưu tiên phát hành ở khu vực nào để có hiệu quả tốt nhất**
 
